@@ -55,5 +55,5 @@ plt.figure(figsize=(8,5))
 sns.barplot(x=cities, y=pressures, palette='Greens')
 plt.title('City-wise Pressure (hPa)')
 plt.ylabel('Pressure (hPa)')
-plt.xlabel('City')
+plt.xlabel('City'),
 plt.show()
